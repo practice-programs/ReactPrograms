@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import FormatName from './jsxintro';
+import PracticeComp from './functcomp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <FormatName />
+    <PracticeComp />
   </React.StrictMode>,
   document.getElementById('root')
 );
