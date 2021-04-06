@@ -4,12 +4,14 @@ import './index.css';
 // import FormatName from './jsxintro';
 // import PracticeComp from './functcomp';
 // import PracticeComp2 from './classcomp';
-import Subscribe from './subscribe';
+// import Subscribe from './subscribe';
+import FunctionClick from './handler';  
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Subscribe />
+    <FunctionClick />
+    {/* <Subscribe /> */}
     {/* <FormatName />
     <PracticeComp book="Harry Potter" author="J.K. Rowling">
       <p>It is a fictional novel.</p>
