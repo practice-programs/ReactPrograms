@@ -9,8 +9,16 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <FormatName />
-    <PracticeComp />
-    <PracticeComp2 />
+    <PracticeComp book="Harry Potter" author="J.K. Rowling">
+      <p>It is a fictional novel.</p>
+      </PracticeComp>
+    <PracticeComp book="The Da Vinci Code" author="Dan Brown">
+      <button>Read</button>
+    </PracticeComp>
+    <PracticeComp book="Norwegian Wood" author="Haruki Murakami"/>
+    <PracticeComp2 book="Harry Potter" author="J.K. Rowling" />
+    <PracticeComp2 book="The Da Vinci Code" author="Dan Brown" />
+    <PracticeComp2 book="Norwegian Wood" author="Haruki Murakami" />
   </React.StrictMode>,
   document.getElementById('root')
 );
