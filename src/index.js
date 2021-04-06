@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FormatName from './jsxintro';
-import PracticeComp from './functcomp';
-import PracticeComp2 from './classcomp';
+// import FormatName from './jsxintro';
+// import PracticeComp from './functcomp';
+// import PracticeComp2 from './classcomp';
+import Subscribe from './subscribe';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormatName />
+    <Subscribe />
+    {/* <FormatName />
     <PracticeComp book="Harry Potter" author="J.K. Rowling">
       <p>It is a fictional novel.</p>
       </PracticeComp>
@@ -18,7 +20,7 @@ ReactDOM.render(
     <PracticeComp book="Norwegian Wood" author="Haruki Murakami"/>
     <PracticeComp2 book="Harry Potter" author="J.K. Rowling" />
     <PracticeComp2 book="The Da Vinci Code" author="Dan Brown" />
-    <PracticeComp2 book="Norwegian Wood" author="Haruki Murakami" />
+    <PracticeComp2 book="Norwegian Wood" author="Haruki Murakami" /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
