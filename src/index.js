@@ -6,12 +6,14 @@ import './index.css';
 // import PracticeComp2 from './classcomp';
 // import Subscribe from './subscribe';
 // import FunctionClick from './handler';  
+// import EventBind from './eventbind';
+import UserGreeting from './conditional'
 import reportWebVitals from './reportWebVitals';
-import EventBind from './eventbind';
 
 ReactDOM.render(
   <React.StrictMode>
-    <EventBind />
+    <UserGreeting />
+    {/* <EventBind /> */}
     {/* <FunctionClick /> */}
     {/* <Subscribe /> */}
     {/* <FormatName />
