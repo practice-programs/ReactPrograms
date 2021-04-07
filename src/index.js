@@ -5,12 +5,14 @@ import './index.css';
 // import PracticeComp from './functcomp';
 // import PracticeComp2 from './classcomp';
 // import Subscribe from './subscribe';
-import FunctionClick from './handler';  
+// import FunctionClick from './handler';  
 import reportWebVitals from './reportWebVitals';
+import EventBind from './eventbind';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FunctionClick />
+    <EventBind />
+    {/* <FunctionClick /> */}
     {/* <Subscribe /> */}
     {/* <FormatName />
     <PracticeComp book="Harry Potter" author="J.K. Rowling">
