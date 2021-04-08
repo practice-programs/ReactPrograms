@@ -7,12 +7,14 @@ import './index.css';
 // import Subscribe from './subscribe';
 // import FunctionClick from './handler';  
 // import EventBind from './eventbind';
-import UserGreeting from './conditional'
+// import UserGreeting from './conditional'
 import reportWebVitals from './reportWebVitals';
+import NameList from './listrendering';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UserGreeting />
+    <NameList />
+    {/* <UserGreeting /> */}
     {/* <EventBind /> */}
     {/* <FunctionClick /> */}
     {/* <Subscribe /> */}
