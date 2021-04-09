@@ -7,13 +7,19 @@ import './index.css';
 // import Subscribe from './subscribe';
 // import FunctionClick from './handler';  
 // import EventBind from './eventbind';
-// import UserGreeting from './conditional'
+// import UserGreeting from './conditional';
+// import NameList from './listrendering';
+// import StyleSheet from './styling';
 import reportWebVitals from './reportWebVitals';
-import NameList from './listrendering';
+// import Inline from './inline';
+import Forms from './forms';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NameList />
+    <Forms />
+    {/* <Inline />
+    <StyleSheet primary= {true}></StyleSheet> */}
+    {/* <NameList /> */}
     {/* <UserGreeting /> */}
     {/* <EventBind /> */}
     {/* <FunctionClick /> */}
